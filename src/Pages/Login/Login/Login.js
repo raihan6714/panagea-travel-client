@@ -27,7 +27,7 @@ const Login = () => {
                         </div>
                         <div className="form-group">
                             <label>Password</label>
-                            <input type="password" className="form-control" name="password" id="password" defaultValue="" />
+                            <input type="password" className="form-control" name="password" id="password" />
                             <i className="icon_lock_alt"></i>
                         </div>
                         <div className="clearfix add_bottom_30">

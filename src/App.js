@@ -26,10 +26,11 @@ import Contacts from './Pages/Contacts/Contacts';
 import Blogs from './Pages/Blogs/Blogs';
 import Payments from './Pages/Payments/Payments';
 import Invoice from './Pages/Invoice/Invoice';
+import SignIn from './Pages/Login/SignIn/SignIn';
 
 function App() {
   return (
-    <div className="">
+    <div className="" id="">
       <Router>
         <Header />
         <Routes>
@@ -53,6 +54,7 @@ function App() {
           <Route path="/invoice" element={<Invoice />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/singIn" element={<SignIn />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

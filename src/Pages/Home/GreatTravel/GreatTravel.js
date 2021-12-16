@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 const GreatTravel = () => {
     return (
         <>
+
             <div className="call_section">
                 <div className="container clearfix">
                     <div className="col-lg-5 col-md-6 float-right wow" data-wow-offset="250">

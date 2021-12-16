@@ -16,7 +16,7 @@ const Header = () => {
                 </div>
                 <ul id="top_menu">
                     <li><Link to="/cart" className="cart-menu-btn" title="Cart"><strong>4</strong></Link></li>
-                    <li><Link to="/" id="sign-in" className="login" title="Sign In">Sign In</Link></li>
+                    <li><Link to="/singIn" id="sign-in" className="login" title="Sign In">Sign In</Link></li>
                     <li><Link to="/wishList" className="wishlist_bt_top" title="Your wishlist">Your wishlist</Link></li>
                 </ul>
                 <Link to="#menu" className="btn_mobile">

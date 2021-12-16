@@ -47,7 +47,7 @@ const Footer = () => {
                                     <div className="form-group">
                                         <input type="email" name="email_newsletter" id="email_newsletter"
                                             className="form-control" placeholder="Your email" />
-                                        <input type="submit" defaultValue="Submit" id="submit-newsletter" />
+                                        <input type="submit" defaultValue={'Submit'} id="submit-newsletter" />
                                     </div>
                                 </form>
                             </div>
@@ -61,18 +61,18 @@ const Footer = () => {
                                 <li>
                                     <div className="styled-select" id="lang-selector">
                                         <select>
-                                            <option defaultValue="English" selected>English</option>
-                                            <option defaultValue="French">French</option>
-                                            <option defaultValue="Spanish">Spanish</option>
-                                            <option defaultValue="Russian">Russian</option>
+                                            <option defaultValue={"English"} selected>English</option>
+                                            <option defaultValue={"French"}>French</option>
+                                            <option defaultValue={"Spanish"}>Spanish</option>
+                                            <option defaultValue={"Russian"}>Russian</option>
                                         </select>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="styled-select" id="currency-selector">
                                         <select>
-                                            <option defaultValue="US Dollars" selected>US Dollars</option>
-                                            <option defaultValue="Euro">Euro</option>
+                                            <option defaultValue={"US Dollars"} selected>US Dollars</option>
+                                            <option defaultValue={"Euro"}>Euro</option>
                                         </select>
                                     </div>
                                 </li>
@@ -88,6 +88,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <div id="toTop"></div>
             </footer>
         </>
     );
