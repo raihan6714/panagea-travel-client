@@ -4,12 +4,12 @@ import GreatTravel from "../GreatTravel/GreatTravel";
 import NewsAndEvents from "../NewsAndEvents/NewsAndEvents";
 import PopularHotels from "../PopularHotels/PopularHotels";
 import PopularTours from "../PopularTours/PopularTours";
-// import Slider from '../Slider/Slider';
+import Slider from "../Slider/Slider";
 
 const Home = () => {
   return (
     <>
-      {/* <Slider /> */}
+      <Slider />
       <PopularTours />
       <PopularHotels />
       <NewsAndEvents />
